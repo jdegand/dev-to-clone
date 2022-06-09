@@ -55,6 +55,6 @@ This is based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 - [Reddit](https://www.reddit.com/r/webdev/comments/klpm09/react_query_trying_to_do_pagination_but_getting/) - react query pagination
 - [React Router](https://v5.reactrouter.com/web/guides/scroll-restoration) - scroll restoration
 - [Blog](https://www.carlrippon.com/lazy-loading-with-react-query/) - lazy loading with react query
-- [CSS Tricks](https://css-tricks.com/snippets/javascript/random-hex-color/#:~:text=var%20randomColor%20%3D%20Math.,random()*16777215).) - random color
+- [CSS Tricks](https://css-tricks.com/snippets/javascript/random-hex-color/#:~:text=var%20randomColor%20%3D%20Math.,random()*16777215) - random color
 - [Stack Overflow](https://stackoverflow.com/questions/53878153/randomly-change-the-background-color-of-a-react-app-by-a-click) - random bg color
 - [Access Use](https://accessuse.eu/en/Content-hover-focus.html) - accessibility hover & focus problems
