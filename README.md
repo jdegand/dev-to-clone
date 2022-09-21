@@ -46,7 +46,7 @@ This is based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 - Random color background (on hover card) is crudely implemented.
 - Semantics can be improved.  I used a lot of div wrappers.  
 - Tab functionality for the hover card.  
-- I originally used a hook for the useQuery request but I changed that later.  So I could try to convert back to a hook.  React query does seem to really on separate hooks for testing.   
+- I originally used a hook for the useQuery request but I changed that later.  So I could try to convert back to a hook.  React query seems to rely on separate hooks for testing.   
 
 ### Useful resources
 
