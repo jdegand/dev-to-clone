@@ -12,7 +12,7 @@
 
 ## Overview
 
-This is based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  I didn't know Dev.to had an api and I was intrigued to see how to use it.  Watching the video, I thought react query would be perfect for this.  So I implemented the basic design with react query instead.  I made my hover card closer to the dev to design.  I didn't see much reason to use tailwind here so I avoided that.  I avoided installing packages for the minimal functionality gains they provided.  
+Project based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  I didn't know Dev.to had an api and I was intrigued to see how to use it.  Watching the video, I thought react query would be a perfect fit so I implemented the basic design with it.  I made my hover card closer to the dev-to design.  I didn't see much reason to use tailwind here since project uses minimal css so I omitted it.
 
 ### Screenshot 
 
@@ -25,7 +25,6 @@ This is based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 ![](dev-to-clone-hover-card.png)
 
 ![](dev-to-clone-bottom-nav.png)
-
 
 ### Links
 
