@@ -49,7 +49,6 @@ Project based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 
 ### Useful resources
 
-- [Tailwind](https://tailwindcss.com/docs/utility-first)
 - [React Query](https://react-query.tanstack.com/examples/pagination) - pagination
 - [Reddit](https://www.reddit.com/r/webdev/comments/klpm09/react_query_trying_to_do_pagination_but_getting/) - react query pagination
 - [React Router](https://v5.reactrouter.com/web/guides/scroll-restoration) - scroll restoration
