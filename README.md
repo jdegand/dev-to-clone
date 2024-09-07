@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,17 +14,25 @@
 
 Project based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  I didn't know Dev.to had an api and I was intrigued to see how to use it.  Watching the video, I thought react query would be a perfect fit so I implemented the basic design with it.  I made my hover card closer to the dev-to design.  I didn't see much reason to use tailwind here since project uses minimal css so I omitted it.
 
-### Screenshot 
+### Screenshots
 
-![](dev-to-clone-mobile.png)
+![Mobile View](screenshots/dev-to-clone-mobile.png)
 
-![](dev-to-clone-mobile-next-page.png)
+***
 
-![](dev-to-clone-desktop.png)
+![Mobile Next Page](screenshots/dev-to-clone-mobile-next-page.png)
 
-![](dev-to-clone-hover-card.png)
+***
 
-![](dev-to-clone-bottom-nav.png)
+![Desktop](screenshots/dev-to-clone-desktop.png)
+
+***
+
+![Hover Card](screenshots/dev-to-clone-hover-card.png)
+
+***
+
+![Bottom Nav](screenshots/dev-to-clone-bottom-nav.png)
 
 ### Links
 
@@ -45,7 +53,7 @@ Project based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 - Random color background (on hover card) is crudely implemented.
 - Semantics can be improved.  I used a lot of div wrappers.  
 - Tab functionality for the hover card.  
-- I originally used a hook for the useQuery request but I changed that later.  So I could try to convert back to a hook.  React query seems to rely on separate hooks for testing.   
+- I originally used a hook for the useQuery request but I changed that later.  So I could try to convert back to a hook.  React query seems to rely on separate hooks for testing.
 
 ### Useful resources
 
