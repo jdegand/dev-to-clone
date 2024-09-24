@@ -1,6 +1,6 @@
 import { RiHeart2Line } from 'react-icons/ri';
 import { BiComment } from 'react-icons/bi';
-import { useState, useEffect } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useQuery } from 'react-query';
 
 async function fetchArticles(page, tag) {
@@ -15,7 +15,7 @@ function Articles() {
   const [page, setPage] = useState(1);
   const [tag, setTag] = useState("") // leave open so you get most recent articles first
 
-  let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  const randomColor = useMemo(() => Math.floor(Math.random() * 16777215).toString(16), []);
 
   const { status, data, error, isFetching } = useQuery(
     ['articles', page, tag],
@@ -23,10 +23,8 @@ function Articles() {
     { keepPreviousData: true, staleTime: 5000, refetchOnWindowFocus: false }
   )
 
-
   useEffect(() => {
     window.scrollTo(0, 0);
-    randomColor = Math.floor(Math.random() * 16777215).toString(16);
   }, [data]);
 
   return (
