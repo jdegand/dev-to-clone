@@ -42,18 +42,23 @@ Project based on this [tutorial](https://www.youtube.com/watch?v=njOk7y62dt0).  
 
 ### Built with
 
+- [Create React App](https://github.com/facebook/create-react-app)
 - [React](https://reactjs.org)
 - [React Query](https://react-query.tanstack.com)
 - [Dev.to API](https://developers.forem.com/api#operation/getArticles)
 - [React Icons](https://react-icons.github.io/react-icons)
+- [Vite](https://vitejs.dev/)
 
 ### Continued development
 
-- Images did't span the whole article when width > 1400px (the images are smaller than viewport width).  So I added min-width 100% for images.  
-- Random color background (on hover card) is crudely implemented.
+- Images didn't span the whole article when width was greater than 1400px (the images are smaller than viewport width). So I added `min-width: 100%` for images.  
+- Random color background (on hover card) was crudely implemented. I added `useMemo` to get standard random color, which is reused across pages. When the app is refreshed, the color will change.
 - Semantics can be improved.  I used a lot of div wrappers.  
 - Tab functionality for the hover card.  
-- I originally used a hook for the useQuery request but I changed that later.  So I could try to convert back to a hook.  React query seems to rely on separate hooks for testing.
+- I originally used a hook for the `useQuery` request, but I changed that later.  So I could try to convert back to a hook.  React query seems to rely on separate hooks for testing.
+- I converted from Create React App to Vite. The process is pretty straightforward, but there may be some lingering things that could be tweaked.
+- There were some files like `manifest.json` that I was unsure on keeping or not.  In this case, I removed it, but I need to research more into this. I do know the `robots.txt` file is fine in the `public` folder.
+- I didn't have any tests in this app, so I removed the previous test dependencies.
 
 ### Useful resources
 
